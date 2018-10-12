@@ -18,3 +18,5 @@ onDeviceReady: function() {
 cordova build ios --buildFlag='-UseModernBuildSystem=0'
 cordova run ios
 ```
+
+![cordova-hockey-app](https://github.com/AndreyMitsyk/cordova-hockey-app/raw/master/Image_0.jpg)
