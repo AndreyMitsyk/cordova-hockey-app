@@ -14,13 +14,15 @@ onDeviceReady: function() {
 
 ### How to build and run app
 
+1) Install packages and initialize platform:
 ```
 npm install
 cordova platform add ios
 ```
 
-After this open `platforms/ios/cordova-hockey-app.xcworkspace` in Xcode and select provisioning profile for project.
+2) Open `platforms/ios/cordova-hockey-app.xcworkspace` in Xcode and select provisioning profile for project and set target.
 
+3) Build and run project
 ```
 cordova build ios --buildFlag='-UseModernBuildSystem=0'
 cordova run ios
