@@ -15,6 +15,13 @@ onDeviceReady: function() {
 ### How to build and run app
 
 ```
+npm install
+cordova prepare
+```
+
+*Note:* You cau update cordova sdk manually: replace content of `plugins/cordova-plugin-hockeyapp` folder.
+
+```
 cordova build ios --buildFlag='-UseModernBuildSystem=0'
 cordova run ios
 ```
