@@ -16,14 +16,16 @@ onDeviceReady: function() {
 
 ```
 npm install
-cordova prepare
+cordova platform add ios
 ```
 
-*Note:* You cau update cordova sdk manually: replace content of `plugins/cordova-plugin-hockeyapp` folder.
+After this open `platforms/ios/cordova-hockey-app.xcworkspace` in Xcode and select provisioning profile for project.
 
 ```
 cordova build ios --buildFlag='-UseModernBuildSystem=0'
 cordova run ios
 ```
+
+*Note:* You cau update cordova sdk manually: replace content of `plugins/cordova-plugin-hockeyapp` folder.
 
 ![cordova-hockey-app](https://github.com/AndreyMitsyk/cordova-hockey-app/raw/master/Image_0.jpg)
